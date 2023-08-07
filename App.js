@@ -74,7 +74,7 @@ const App = () => {
             Currency Converter
           </h1>
         </div>
-        <div className="bg-blue-300   h-96   ">
+        <div className="bg-blue-300 mt-2  h-96   ">
           <div className="w-10/12 text-white text-2xl uppercase space-y-6 bg-blue-600 mt-2 h-96 p-12 mx-auto mt-auto ">
             <div className="flex  justify-between">
               <label className="">Base Currency:</label>

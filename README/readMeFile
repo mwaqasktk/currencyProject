@@ -1,0 +1,25 @@
+
+User Guide
+Upon opening the application, you will see a user interface with two dropdowns to select the base and target currencies, an input field to enter the amount, and a "Convert" button.
+
+Select the base and target currencies from the dropdowns.
+
+Enter the amount you want to convert in the input field.
+
+Click the "Convert" button.
+
+The application will fetch the latest exchange rates from the Free Currency API and display the exchange rate and the converted amount below the "Convert" button.
+
+API
+This application uses the Free Currency API to fetch real-time exchange rate data. The API endpoint is: https://app.freecurrencyapi.com. It returns data in JSON format.
+
+Error Handling
+The application implements appropriate error handling for API requests. If there is an issue with fetching the exchange rates, an error message will be displayed to the user.
+
+Contributing
+Contributions to this project are welcome. If you have any improvements, bug fixes, or new features to suggest, feel free to open an issue or submit a pull request.
+
+Start the development server:
+npm run start in terminal
+OR 
+Open your web browser and visit http://localhost:3000 to access the application.
